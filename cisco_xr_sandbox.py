@@ -6,7 +6,8 @@ from netmiko import ConnectHandler
 
 device = {
     'device_type': 'cisco_xr',
-    'ip': 'your_device_ip',
+    'host': 'sandbox-iosxr-1.cisco.com',
+    # 'ip': 'IP_ADDRESS',
     'username': 'admin',
     'password': 'C1sco12345',
 }
