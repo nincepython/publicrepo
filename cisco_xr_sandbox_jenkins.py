@@ -16,8 +16,8 @@ username = sys.argv[1]
 password = sys.argv[2]
 
 # Print the parameters
-print("Username:", username)
-print("Password:", password)
+print("Username qe kemi perdorur si argument eshte: ", username)
+print("Password qe kemi regjistruar ne jenkins eshte :", password)
 
 device = {
     'device_type': 'cisco_xr',
@@ -37,6 +37,10 @@ output = ssh_active.send_command("show version")
 
 # Print the output
 print(output)
+output = ssh_active.send_command("show ip int brief ")
+# Print the output
+print(output)
+
 
 # Close the SSH connection
 ssh_active.disconnect()
