@@ -8,8 +8,8 @@ device = {
     'device_type': 'cisco_xr',
     'host': 'sandbox-iosxr-1.cisco.com',
     # 'ip': 'IP_ADDRESS',
-    #'username': 'admin',
-    'username': input("Enter your username: \n"),
+    'username': 'admin',
+    #'username': input("Enter your username: \n"),
     'password': 'C1sco12345',
 }
 
