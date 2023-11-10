@@ -22,6 +22,9 @@ device = {
     'host': 'sandbox-iosxr-1.cisco.com',
     'username': username,
     'password': password,
+    #'username': 'admin',
+    #'password': 'C1sco12345',
+}
 }
 
 # Establish an SSH connection to the device
