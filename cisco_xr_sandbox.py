@@ -25,4 +25,4 @@ output = ssh_active.send_command("show version")
 print(output)
 
 # Close the SSH connection
-connection.disconnect()
+ssh_active.disconnect()
