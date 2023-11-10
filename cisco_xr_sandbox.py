@@ -18,6 +18,7 @@ connection = ConnectHandler(**device)
 
 # Execute "show ip interface brief" command
 output = connection.send_command("show ip interface brief")
+output = connection.send_command("show version")
 
 # Print the output
 print(output)
