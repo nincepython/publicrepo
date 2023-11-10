@@ -25,7 +25,6 @@ device = {
     #'username': 'admin',
     #'password': 'C1sco12345',
 }
-}
 
 # Establish an SSH connection to the device
 ssh_active = ConnectHandler(**device)
