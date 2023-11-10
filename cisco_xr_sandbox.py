@@ -14,11 +14,12 @@ device = {
 }
 
 # Establish an SSH connection to the device
-connection = ConnectHandler(**device)
+ssh_active = ConnectHandler(**device)
+print(ssh_active.find_prompt())
 
 # Execute "show ip interface brief" command
-output = connection.send_command("show ip interface brief")
-output = connection.send_command("show version")
+#output = ssh_active.send_command("show ip interface brief")
+output = ssh_active.send_command("show version")
 
 # Print the output
 print(output)
