@@ -1,5 +1,7 @@
 import sys
 from netmiko import ConnectHandler
+# sudo -u jenkins /bin/bash
+# sudo -u jenkins /bin/bash
 
 # Print the command-line arguments passed to the script
 print("Command-line arguments:", sys.argv)
