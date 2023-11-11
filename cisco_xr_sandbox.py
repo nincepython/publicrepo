@@ -1,5 +1,7 @@
-#!/home/nincepython/.venv/bin/python3
+#!/home/useranme/.venv/bin/python3
 
+# sudo -u jenkins /bin/bash
+# sudo -u jenkins /bin/bash
 
 import netmiko
 from netmiko import ConnectHandler
